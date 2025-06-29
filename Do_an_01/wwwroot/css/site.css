@@ -35,8 +35,8 @@ a{
 
 .header__nav {
     display: flex;
-    gap: 60px;
-  
+    gap:30px;
+    padding: 20px 30px;
 }
 
 .header__link {
@@ -44,7 +44,12 @@ a{
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
+    transition: 0.25s;
 }
+
+    .header__link:hover {
+        transform: scale(1.1);
+    }
 
 .header__actions {
     display: flex;
@@ -107,6 +112,7 @@ a{
     color: #555;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.25s;
 }
 
 .header__login:hover {
@@ -122,6 +128,7 @@ a{
     text-align: center;
     color: #fff;
     background-color: #000000;
+    transition: 0.25s;
 }
 
 .header__signup:hover {
